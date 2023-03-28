@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Meg DeWaal Designs</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Dancing Script">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Playfair Display">
+    <link rel="stylesheet" href="./font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
@@ -20,39 +25,48 @@
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Meg DeWaal</h1>
-            <h1>Designs and Development</h1>
-            <p>Hi there, I am a software developer specializing in web design and development. My services include 
-                webpage and application design in Figma, translation of design prototypes into HTML and CSS, React.js 
-                app development, and various Vanilla JavaScript tasks. 
-            </p>
+        <section class="hero">
             <div>
-                <h2>Book Now</h2>
-                <button>Ffiver</button>
+                <h1>Meg DeWaal</h1>
+                <h3>Designs and Development</h3>
+                <p>Hi there, I am a software developer specializing in web design and development. My services include 
+                    web and mobile app design in Figma, translation of design prototypes into HTML and CSS, React.js 
+                    app development, and various Vanilla JavaScript tasks. 
+                </p>
+                <div class="book">
+                    <h2>Book Now</h2>
+                    <i class="fa fa-arrow-right fa-lg white"></i>
+                    <button>Fiverr</button>
+                </div>
             </div>
         </section>
-        <section>
-            <h1>Portfolio Projects</h1>
-            <article>
-                <h2>Little Lemon Restuarant</h2>
-                <h3>React App</h3>
-                <h4>Key Features</h4>
-                <ul>
-                    <li>Single Page App</li>
-                    <li>Reusable React Components</li>
-                </ul>
-            </article>
-            <article>
-                <h2>Fred's Farm Equipment</h2>
-                <h3>HTML/CSS/Vanilla JavaScript</h3>
-                <h4>Key Features</h4>
-                <ul>
-                    <li>Reads from text export of Access Database</li>
-                    <li>Uses Nunjucks for reusable html elements</li>
-                    <li>Dropdown menu in plain HTML/CSS/Vanilla JavaScript</li>
-                </ul>
-            </article>
+        <section class="projects">
+            <h1 class="black">Portfolio Projects</h1>
+            <div>
+                <article>
+                        <a href="./littlelemon">
+                            <h2>Little Lemon Restuarant</h2>
+                            <h3>React App</h3>
+                            <h4>Key Features</h4>
+                            <ul>
+                                <li>Single Page App</li>
+                                <li>Reusable React Components</li>
+                            </ul>
+                        </a>
+                </article>
+                <article>
+                    <a href="./fredsfarmequipment">
+                        <h2>Fred's Farm Equipment</h2>
+                        <h3>HTML/CSS/Vanilla JavaScript</h3>
+                        <h4>Key Features</h4>
+                        <ul>
+                            <li>Reads from text export of Access Database</li>
+                            <li>Uses Nunjucks for reusable html elements</li>
+                            <li>Dropdown menu in plain HTML/CSS/Vanilla JavaScript</li>
+                        </ul>
+                    </a>
+                </article>
+            </div>
         </section>
     </main>
     <footer>

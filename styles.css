@@ -1,14 +1,107 @@
 /* General */
 
 body {
-    background-color: darkgray;
+    background-color: #515c8d;
     padding: 0vw;
     margin: 0vw;
 }
 
+main {
+    margin: 0vw;
+    padding: 0vw;
+}
+
 .logo {
-    width: 10vw;
-    height: 10vw;
+    max-height: 10vw;
+    min-height: 80px;
+    width: auto;
+}
+
+button {
+    height: 35px;
+    width: fit-content;
+    background-color: #bdc4ea;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+section {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Text */
+
+h1 {
+    margin: 0vw;
+    font-family: 'Dancing Script';
+    font-size: 40px;
+    color: #978eca;
+}
+
+h2 {
+    font-family: 'Dancing Script';
+    font-size: 30px;
+    color: #978eca;
+}
+
+h3 {
+    font-family: 'Playfair Display';
+    font-size: 25px;
+    margin-top: 5px;
+    color: #bdc4ea;
+}
+
+h4 {
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    color: #bdc4ea;
+}
+
+li, p {
+    color: white;
+}
+
+p, a, li, button {
+    font-family: 'Playfair Display';
+    font-size: 16px;
+}
+
+a:link {
+    color: #978eca;
+    text-decoration-line: none;
+}
+
+a:visited {
+    color: #bdc4ea;
+}
+
+a:hover {
+    color: white;
+}
+
+.white {
+    color: white;
+}
+
+.lightPurple {
+    color: #978eca;
+}
+
+.lightBlue {
+    color: #bdc4ea;
+}
+
+.blue {
+    color: #515c8d;
+}
+
+.darkBlue {
+    color: #232743;
+}
+
+.black {
+    color: black;
 }
 
 /* Header */
@@ -16,12 +109,16 @@ body {
 header {
     background-color: black;
     display: flex;
+    margin: 0vw;
+    padding: 0vw;
 }
 
 header ul {
     list-style: none;
-    margin-left: 40vw;
-    width: 50vw;
+    padding: 0vw;
+    padding-top: 5px;
+    margin-left: 25vw;
+    width: 60vw;
     display: flex;
 }
 
@@ -29,11 +126,13 @@ header li {
     display: inline;
     flex: 1;
     display: flex;
+    border: 2px solid white;
 }
 
 li a {
     flex: 1;
     text-align: center;
+    padding: 5px;
 }
 
 /* Footer */
@@ -45,4 +144,68 @@ footer {
 
 footer ul {
     list-style: none;
+}
+
+/* Homepage */
+
+/* Hero */
+
+.hero {
+    border-bottom:  2px solid #bdc4ea;
+    border-top:  2px solid #bdc4ea;
+    background-image: url(./images/starry_sky.jpg);
+    background-size: 100% 100%;
+    width: 100vw;
+}
+
+.hero > div {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 3vw;
+    width: 44vw;
+}
+
+.book {
+    display: flex;
+    margin: 10px;
+}
+
+.book h2 {
+    margin: 0px;
+}
+
+.book i {
+    margin: 10px;
+}
+
+/* Portfolio Projects */
+
+.projects {
+    
+    text-align: center;
+}
+
+.projects h1 {
+    margin: 20px;
+}
+
+.projects div {
+    display: flex;
+    background-color: black;
+    margin: 15px;
+    box-shadow: 0px 4px 8px 0px black;
+}
+
+.projects article {
+    flex: 1;
+    margin: 20px;
+    border:  2px solid #bdc4ea;
+    border-radius: 8px;
+}
+
+.projects ul {
+    list-style-position: inside;
+}
+
+.projects article:hover {
+    box-shadow: 0px 4px 8px 0px white;
 }
